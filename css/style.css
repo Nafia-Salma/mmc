@@ -1,6 +1,5 @@
 @import url("../backup/backup.css");
 
-
 body {
     position: relative;
     background-image: url("../images/2.png");
@@ -115,4 +114,34 @@ section{
 }
 .readmore:hover{
     opacity: 0.7;
+}
+
+/*for smartphones users*/
+@media (max-width: 650px) {
+    .main {
+        font-size: 1.5em;
+        line-height: 1.5;
+    }
+    .button {
+        padding: 0.3em 2em;
+        margin-right: 10px;
+    }
+    .stbg1, .stbg2, .stbg3 {
+        display: none;
+    }
+    section {
+        margin: 50px 10px 0 10px;
+    }
+    .mmc_title {
+        margin-bottom: 10px;
+    }
+    .mmc_desc {
+        margin-bottom: 30px;
+    }
+    .Dayarticle {
+        margin-top: 15vh;
+    }
+    .Dayarticletitle {
+        margin-bottom: 10px;
+    }
 }
