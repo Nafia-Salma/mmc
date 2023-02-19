@@ -122,7 +122,22 @@ section{
         font-size: 1.5em;
         line-height: 1.5;
     }
+    .button {
+        padding: 0.3em 2em;
+    }
     section {
         margin: 50px 10px 0 10px;
+    }
+    .mmc_title {
+        margin-bottom: 10px;
+    }
+    .mmc_desc {
+        margin-bottom: 30px;
+    }
+    .Dayarticle {
+        margin-top: 15vh;
+    }
+    .Dayarticletitle {
+        margin-bottom: 10px;
     }
 }
