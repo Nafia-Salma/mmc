@@ -57,10 +57,10 @@ section{
 .mmc_title{
     font-weight: 600;
     font-size: 3em;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
 }
 .mmc_desc{
-    margin-bottom: 50px;
+    margin-bottom: 5%;
 }
 .button{
     text-decoration: none;
@@ -74,7 +74,7 @@ section{
 .join{
     background-color: var(--buttonsColor);
     color: var(--principleColor);
-    margin-right: 20px;
+    margin-right: 5%;
 }
 .join:hover{
     opacity:0.75;
@@ -98,7 +98,7 @@ section{
     font-weight: 500;
     font-size: 1.5rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }
 .article{
     
@@ -122,26 +122,7 @@ section{
         font-size: 1.5em;
         line-height: 1.5;
     }
-    .button {
-        padding: 0.3em 2em;
-        margin-right: 10px;
-    }
-    .stbg1, .stbg2, .stbg3 {
-        display: none;
-    }
     section {
         margin: 50px 10px 0 10px;
-    }
-    .mmc_title {
-        margin-bottom: 10px;
-    }
-    .mmc_desc {
-        margin-bottom: 30px;
-    }
-    .Dayarticle {
-        margin-top: 15vh;
-    }
-    .Dayarticletitle {
-        margin-bottom: 10px;
     }
 }
