@@ -118,29 +118,15 @@ section{
 
 /*for smartphones users*/
 @media (max-width: 650px) {
-    .main {
-        font-size: 1.5em;
-        line-height: 1.5;
+    .main{
+        width: 100%;
     }
-    .button {
-        padding: 0.3em 2em;
+    .mmc_title{
         font-weight: 400;
-    }
-    section {
-        margin: 50px 10px 0 10px;
-    }
-    .mmc_title {
-        margin-bottom: 10px;  
         font-size: 1.5em;
-
     }
-    .mmc_desc {
-        margin-bottom: 30px;
-    }
-    .Dayarticle {
-        margin-top: 15vh;
-    }
-    .Dayarticletitle {
-        margin-bottom: 10px;
+    .button{
+        padding: 0.2em 1em;
+        font-weight: 400;
     }
 }
