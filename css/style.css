@@ -137,6 +137,9 @@ section {
     .main {
         width: 100%;
     }
+    .section{
+        margin: 25px 20px 0 30px;  
+    }
 
     .mmc_title {
         font-size: 2em;
