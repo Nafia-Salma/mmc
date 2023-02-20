@@ -147,11 +147,13 @@ section {
     }
 
     .Dayarticle {
-        margin-top: 15vh;
+        margin-top: 5vh;
     }
 
+    .article {
+        width: 5%;
+    }
     .stbg1, .stbg2, .stbg3 {
         display: none;
     }
-
 }
