@@ -138,7 +138,7 @@ section {
         width: 100%;
     }
     .section{
-        margin: 25px 20px 0 30px;  
+        margin: 5px 10px 0 10px;  
     }
 
     .mmc_title {
@@ -154,7 +154,7 @@ section {
     }
 
     .article {
-        width: 5%;
+        width: 95%;
     }
     .stbg1, .stbg2, .stbg3 {
         display: none;
