@@ -98,10 +98,9 @@ header a:hover {
 
 .overlay-content {
     position: relative;
-    top: 20%;
+    /* top: 10%; */
     width: 80%;
     text-align: center;
-    margin-top: 30px;
     margin: auto;
 
 }
