@@ -60,7 +60,6 @@ section {
 
    z-index: 2;
 }
-
 .imgCard {
    padding: 20px;
 }
@@ -203,23 +202,21 @@ section {
    }
    .PageTitle {
       font-size: 25px;
+      margin-top: 60px;
+      margin-bottom: 20px;
    }
 
-   .pole-slider {
-      width: 75%;
+   .card-pole{
       margin: 0px auto;
       max-width: 500px;
       position: relative;
       margin-bottom: 0px;
-
-   }
-   .card-pole{
       background-position: 160% -28%;
 
    }
 
    .imgCard {
-      padding: 40px;
+      padding: 35px;
    }
 
 
@@ -231,7 +228,7 @@ section {
 
    .owl-nav .owl-next,
    .owl-nav .owl-prev {
-      top: calc(42% - 10px);
+      top: calc(50% - 10px);
 
    }
 
@@ -271,6 +268,6 @@ section {
 
    .owl-dots {
       text-align: center !important;
-      margin-top: -70px;
+      margin-top: -60px;
    }
 }
