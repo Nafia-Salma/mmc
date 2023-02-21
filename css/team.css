@@ -14,7 +14,7 @@ body {
 }
 section{
    /* top right botton left */
-   margin:75px 200px 0px 200px;
+   margin: 4% 15% 0px 15%;
 }
 .PageTitle{
    text-align: center;
@@ -160,3 +160,68 @@ section{
 
 
 
+/*for smartphones users*/
+@media (max-width: 650px) {
+   body {
+      position: relative;
+      background-image: none;
+   }
+
+   section {
+      /* top right botton left */
+      margin: 0px 100px 0px 100px;
+   }
+
+   .PageTitle {
+      font-size: 25px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+   }
+
+   .slider-card {
+      width: 85%;
+      margin: 0px auto ;
+      max-width: 500px;
+      position: relative;
+      background-position:  175% -40% , -75% 140%;
+
+   }
+
+   .imgCard {
+      padding: 45px;
+   }
+
+
+   /* third ones */
+   .target1 {
+      opacity: 1;
+      padding-right: 70px;
+   }
+
+   .owl-nav .owl-next,
+   .owl-nav .owl-prev {
+      top: calc(36% - 15px);
+
+   }
+
+
+   .poleName {
+      font-size: 18px;
+   }
+
+   .poleDesc {
+      font-size: 12px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      margin-top: 0px;
+   }
+
+   .card-pole a {
+      font-size: 12px;
+   }
+   .owl-dots{
+      text-align: center !important;
+      margin-top: -30px;
+   }
+}

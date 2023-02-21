@@ -137,9 +137,6 @@ section {
     .main {
         width: 100%;
     }
-    /* .section{
-        margin: 15px 10px 0 30px;  
-    } */
 
     .mmc_title {
         font-size: 2em;
@@ -152,6 +149,9 @@ section {
     .Dayarticle {
         margin-top: 10vh;
     }
+    .Dayarticletitle {
+        font-size: 25px;
+    }
 
     .article {
         width: 95%;
@@ -159,7 +159,4 @@ section {
     .stbg1, .stbg2, .stbg3 {
         display: none;
     }
-    .ContatLink .fa {
-        font-size: 15px;
-     }
 }

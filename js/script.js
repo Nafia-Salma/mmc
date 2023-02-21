@@ -82,20 +82,24 @@ $(document).ready(function () {
                     img = "../images/poles/education.png";
                     break;
                 case 6:
+
                     title = "Pole media and communication";
-                    desc1 = "Our pole involves overseeing and coordinating the various forms of media and communication used by the community. This includes tasks as developing and implementing a communication strategy, managing the community's social media presence, and handling media inquiries, and ensuring that the communication efforts align with overall goals and values of the community.<br><br>Additionally, the media and the communication pole involves guaranteeing that the communication within the community is healthy and effective."
-                    desc2 = "";
+                    desc1 = "Our pole involves overseeing and coordinating the various forms of media and communication used by the community. This includes tasks as developing and implementing a communication strategy, managing the community's social media presence, and handling media inquiries, and ensuring that the communication efforts align with overall goals and values of the community."
+                    desc2 = " Additionally, the media and the communication pole involves guaranteeing that the communication within the community is healthy and effective.";
                     desc3 = "";
                     img = "../images/poles/media.png";
                     break;
                 case 7:
+
                     title = "Pole sponsoring and collaboration";
-                    desc1 = ""
-                    desc2 = "";
-                    desc3 = "";
+                    desc1 = "The Sponsoring and Collaboration Pole in the Moroccan Mathematical Community (MMC) is a key component of the association's efforts to promote and support the study and advancement of mathematics. This pole is responsible for building relationships with businesses and organizations that are interested in supporting the MMC's mission through financial sponsorships or collaborative partnerships."
+                    desc2 = "Through sponsorships, the MMC can secure funding for its educational programs, scientific research initiatives, and artistic projects that showcase the beauty and power of mathematics. This funding can also be used to support the association's members, such as engineering students, professors, and researchers, by providing them with resources and opportunities to further their education and research.";
+                    desc3 = "Collaboration is another important aspect of the Sponsoring and Collaboration Pole's work. By partnering with other businesses, organizations, and academic institutions, the MMC can expand its reach and impact, and gain access to new resources and expertise. Collaborative partnerships can also help the MMC to promote mathematics in new and innovative ways, such as through interdisciplinary projects that combine mathematics with other fields, such as art and technology.";
                     img = "../images/poles/sponsoring.png";
                     break;
                 case 8:
+                    // title = activeIndex
+
                     title = "Pole IT";
                     desc1 = "The IT pole is a department that provides technical support and solutions to community members in various ways, including improving their daily lives and overall well-being. This may include offering IT training, providing software and hardware assistance, and troubleshooting technical issues. Additionally, the pole acts as a bridge between the community and math enthusiasts, facilitating communication and collaboration between the two groups. This can involve organizing events and workshops that bring together math lovers, as well as creating online forums and resources for sharing information and knowledge. By promoting greater understanding and appreciation of math and technology, the IT pole helps to create a more connected and empowered community."
                     desc2 = "";
@@ -103,6 +107,8 @@ $(document).ready(function () {
                     img = "../images/poles/it.png";
                     break;
                 case 9:
+                    // title = activeIndex
+
                     title = "Pole design and animation";
                     desc1 = "We are responsible for creating visual communication materials that effectively convey a message or idea. we work closely with other poles and we use an artistic approach with knowledge of design principles to create visually appealing layouts that align with the brand's identity and the community's overall strategy, and resonate with our intended audience."
                     desc2 = "";
@@ -110,6 +116,8 @@ $(document).ready(function () {
                     img = "../images/poles/design.png";
                     break;
                 case 10:
+                    // title = activeIndex
+
                     title = "Pole events and logistics";
                     desc1 = "Our pole encompasses everything about an event,  from its planning and execution to venue selection, catering, budgeting and financial management, and onsite management. We also provide logistical support such as transportation arrangements, audio-visual support, security, and other services. We understand the importance of planning and logistics for a successful event, and are committed to providing the highest quality of professional services."
                     desc2 = "";

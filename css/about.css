@@ -60,8 +60,8 @@ section {
 
 .backgroundImage1 {
    position: absolute;
-   top: 15%;
-   right: -16%;
+   top: 20%;
+   right: 0%;
    opacity: 0.7;
    animation: rotation 200s infinite linear;
    z-index: -1;
@@ -69,8 +69,8 @@ section {
 
 .backgroundImage2 {
    position: absolute;
-   top: 15%;
-   left: -16%;
+   top: 20%;
+   left: -12%;
    opacity: 0.7;
    animation: rotation 200s infinite linear;
    z-index: -1;
@@ -100,6 +100,6 @@ section {
 
    .backgroundImage2 {
       top: 20%;
-      left: -13%;
+      left: -12%;
    }
 }

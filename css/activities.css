@@ -30,8 +30,10 @@ section {
 
 .title {
    font-size: 20px;
-   margin-bottom: 5px;
    font-weight: bold;
+   color: var(--principleColor);
+   margin-bottom: 20px;
+   text-align: center;
 }
 
 .desc {
@@ -103,18 +105,69 @@ section {
 
 .DescSection img {
    width: 30%;
+   margin: auto;
    margin-right: 1.5rem;
    margin-left: -1.5rem;
-   margin-top: 2.5rem;
 }
 
 .DescSection p h3 {
    float: right;
 }
 
-.DescSection h3 {
-   color: var(--principleColor);
-   margin-bottom: 20px;
-   text-align: center;
 
+/* for smartphones */
+@media (max-width: 650px) {
+
+   .Page_Title,
+   .title {
+      font-size: 25px;
+   }
+
+   .title {
+      font-size: 10px;
+      margin-bottom: 5px;
+   }
+   .desc {
+      font-size: 9px;
+   }
+
+   .item img {
+      width: 75%;
+   }
+   
+   .science{
+      width: 65%;
+   }
+   .research{
+      width: 60%;
+   }
+   .item {
+      padding-right: 2%;
+      padding-left: 2%;
+   }
+   .activities {
+      margin-top: 60px;
+      padding: 10px 30px;
+      width: 95%;
+   }
+   .icon {
+      margin-top: 0%;
+      width: 7%;
+   }
+   .date {
+      font-size: 12px;
+   }
+   
+   .DescSection {
+      display: block;
+      align-items: center;
+      font-size: 8px;
+   }
+   
+   .DescSection img {
+      width: 85%;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
 }
