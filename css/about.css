@@ -75,3 +75,31 @@ section {
    animation: rotation 200s infinite linear;
    z-index: -1;
 }
+
+@media (max-width: 650px) {
+   .PageTitle {
+      font-size: 25px;
+   }
+
+   .TeamImage img {
+      border-width: 4px;
+
+      width: 65%;
+      margin-bottom: 10px;
+   }
+
+   .text {
+      font-size: 12px;
+   }
+
+   .backgroundImage1 {
+      /* display: none !important; */
+      top: 20%;
+      right: 0%;
+   }
+
+   .backgroundImage2 {
+      top: 20%;
+      left: -13%;
+   }
+}

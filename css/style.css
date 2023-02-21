@@ -150,7 +150,7 @@ section {
     }
 
     .Dayarticle {
-        margin-top: 20px;
+        margin-top: 10vh;
     }
 
     .article {
@@ -159,4 +159,7 @@ section {
     .stbg1, .stbg2, .stbg3 {
         display: none;
     }
+    .ContatLink .fa {
+        font-size: 15px;
+     }
 }
