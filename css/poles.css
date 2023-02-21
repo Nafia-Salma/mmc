@@ -201,12 +201,6 @@ section {
       position: relative;
       background-image: none;
    }
-
-   section {
-      /* top right botton left */
-      margin: 15px 50px 0px 50px;
-   }
-
    .PageTitle {
       font-size: 25px;
    }

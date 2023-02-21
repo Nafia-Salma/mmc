@@ -8,7 +8,7 @@
     box-sizing: inherit;
 }
 
-html{
+html {
     scroll-behavior: smooth;
     font-family: "Lato", Helvetica, Arial;
     box-sizing: border-box;
@@ -209,57 +209,65 @@ footer .ContatLink a:hover {
     border: 0.03em solid var(--buttonsColor);
 }
 
-.current_page  {
-   font-weight: bold;
-   color: var(--buttonsColor);
-   text-decoration: underline !important;
-  }
+.current_page {
+    font-weight: bold;
+    color: var(--buttonsColor);
+    text-decoration: underline !important;
+}
 
 /* for smartphones */
 @media (max-width: 650px) {
     header {
-      margin: 5px 10px;
+        margin: 5px 10px;
     }
-  
+
     .MMClogo {
-      width: 60px;
+        width: 60px;
     }
-  
+
     header nav ul li {
-      margin: 5px;
+        margin: 5px;
     }
-  
+
     header nav ul li a {
-      font-weight: 500;
-      font-size: 0.6rem;
+        font-weight: 500;
+        font-size: 0.6rem;
     }
-  
+
     footer {
-      margin-top: 50px;
-      margin-bottom: 10px;
+        margin-top: 50px;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
     }
+
     .title_footer {
         font-weight: 800;
         font-size: 12px;
         margin-bottom: 5px;
-    
+
     }
+
     .NavLinks ul,
     .ContatLink ul {
-      margin-bottom: 10px;
+        margin-bottom: 10px;
     }
-  
+
     .NavLinks ul li a {
-      margin: 0 5px;
-      font-size: 0.6rem;
+        margin: 0 5px;
+        font-size: 0.6rem;
     }
+
     .ContatLink a {
         height: 20px;
         width: 20px;
         margin: 0 3px 3px 0;
         line-height: 16px;
     }
+
     .ContatLink .fa {
         font-size: 10px;
     }
-  }
+}
