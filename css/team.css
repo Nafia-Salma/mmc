@@ -195,6 +195,14 @@ section {
    }
 
 
+   .slider .owl-item.center .card-pole,
+   .slider-card,
+   .target1,
+   .target2 {
+      transform: scale(1) !important;
+      opacity: 1
+   }
+
    /* third ones */
    .target1 {
       opacity: 1;
@@ -219,15 +227,11 @@ section {
       margin-top: 0px;
    }
 
-   .card-pole a {
-      font-size: 12px;
-   }
-
    .owl-dots {
       text-align: center !important;
-      margin-top: -50px;
+      margin-top: -20px;
    }
    .Container{
-      margin-bottom: 100px;
+      margin-bottom: 120px;
    }
 }
